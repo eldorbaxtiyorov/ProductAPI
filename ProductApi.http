@@ -1,0 +1,11 @@
+@api= http://localhost:5036
+
+GET {{api}}/products/
+Accept: application/json
+
+{
+    "Name":"Coca-cola",
+    "Price":6000,
+    "Status":0
+}
+
